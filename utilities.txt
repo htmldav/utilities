@@ -1,2 +1,2 @@
 curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-html://localhost:8095/App42PaaS-Java-MySQL-Sample/
+http://localhost:8095/App42PaaS-Java-MySQL-Sample/
