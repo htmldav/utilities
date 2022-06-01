@@ -2,3 +2,11 @@ curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-compo
 http://localhost:8095/App42PaaS-Java-MySQL-Sample-0.0.1-SNAPSHOT/
 
 docker-compose build --no-cache
+docker-compose ps
+   65  docker-compose down
+   66  docker network ls
+   67  docker ps --format "table {{.ID}}\t{{.Status}}\t{{.Names}}"
+   68  docker network ls
+   69  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' stage-myapp-mysql-1
+   70  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' stage-web-1
+   71  docker network inspect -f '{{json .Containers}}' 210d51e718e5 | jq '.[] | .Name + ":" + .IPv4Address'
