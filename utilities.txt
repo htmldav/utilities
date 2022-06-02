@@ -10,3 +10,4 @@ docker-compose ps
    69  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' stage-myapp-mysql-1
    70  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' stage-web-1
    71  docker network inspect -f '{{json .Containers}}' 210d51e718e5 | jq '.[] | .Name + ":" + .IPv4Address'
+   docker exec stage-web-1 ping 172.24.2.1
