@@ -12,3 +12,12 @@ docker-compose ps
    71  docker network inspect -f '{{json .Containers}}' 210d51e718e5 | jq '.[] | .Name + ":" + .IPv4Address'
    docker exec stage-web-1 ping 172.24.2.1
    mysql -u acp4pogynvaeidfj -p
+
+   docker exec stage-myapp-mysql-1 cat /etc/hosts
+   85  docker exec stage-web-1 cat /etc/hosts
+   86  docker exec stage-web-1 ping 172.24.2.1
+   87  docker exec -it stage-web-1 /bin/bash
+   88  clear
+   89  docker exec -it stage-web-1 /bin/bash
+   docker exec -it stage-myapp-mysql-1 /bin/bash
+
