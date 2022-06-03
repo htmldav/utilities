@@ -21,3 +21,4 @@ docker-compose ps
    89  docker exec -it stage-web-1 /bin/bash
    docker exec -it stage-myapp-mysql-1 /bin/bash
 
+Accound id aws 555971249752
