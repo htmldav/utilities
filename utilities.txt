@@ -38,7 +38,7 @@ chmod 400 ~/.ssh/my-key.pem
 aws ec2 run-instances \
     --image-id ami-09d56f8956ab235b3 \
     --instance-type t2.micro \
-    --count 2 \
+    --count 1 \
     --key-name my-key325 \
     --security-groups MySecurityGroup325 \
     --block-device-mappings DeviceName=/dev/sdh,Ebs={VolumeSize=15}
