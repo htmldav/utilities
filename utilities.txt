@@ -34,6 +34,7 @@ aws ec2 create-key-pair --key-name MyKeyPair
 aws ec2 create-key-pair --key-name my-key325 --query 'KeyMaterial' --output text > ~/.ssh/my-key.pem
 
 chmod 400 ~/.ssh/my-key.pem
+chmod 400 /.ssh/my-key.pem
 
 aws ec2 run-instances \
     --image-id ami-09d56f8956ab235b3 \
