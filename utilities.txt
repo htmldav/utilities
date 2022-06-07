@@ -60,3 +60,8 @@ ansible-playbook playbook.yml --vault-password-file vault.pass
 ansible-playbook -i hosts site.yml --ask-vault-pass
 
 ansible-playbook site.yml --ask-vault-pass
+
+[local]
+localhost
+
+[webserver]
