@@ -76,3 +76,8 @@ lineinfile insertafter
   gather_facts: false
   tasks:
     - meta: refresh_inventory
+
+TASK [Gathering Facts] *********************************************************************************
+The authenticity of host '54.86.73.215 (54.86.73.215)' can't be established.
+ECDSA key fingerprint is SHA256:X0rj0OudokJf0t4kWE/VbZWNphbayWQ1G4Df+U8V5ks.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
