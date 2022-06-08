@@ -64,6 +64,8 @@ ansible-playbook site.yml --ask-vault-pass
 [local]
 localhost
 
-[webserver]
+[deploy]
+
+[stage]
 
 lineinfile insertafter
