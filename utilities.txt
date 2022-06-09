@@ -87,3 +87,7 @@ fatal: [54.86.73.215]: UNREACHABLE! => {"changed": false, "msg": "Failed to conn
 Failed to add the host to the list of known hosts (/home/alex/.ssh/known_hosts).
 
 /etc/ansible/ansible.cfg
+
+ubuntu@ip-172-31-17-251:~$ ls -a /home/ubuntu/repos/target/
+.  ..  classes  generated-sources  hello-1.0  
+hello-1.0.war  maven-archiver  maven-status
