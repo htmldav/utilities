@@ -94,7 +94,6 @@ hello-1.0.war  maven-archiver  maven-status
 
 - name: Simple PUT operation
   amazon.aws.aws_s3:
-    bucket: mybucket
-    object: /my/desired/key.txt
-    src: /usr/local/myfile.txt
+    bucket: test09062022
+    object: /home/ubuntu/repos/target/hello-1.0.war
     mode: put
