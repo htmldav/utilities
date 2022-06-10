@@ -94,8 +94,9 @@ hello-1.0.war  maven-archiver  maven-status
 
 - name: Simple PUT operation
   amazon.aws.aws_s3:
-    bucket: test09062022
+    bucket: test10062022
     object: /home/ubuntu/repos/target/hello-1.0.war
     mode: put
 
-aws s3 rb s3://bucket-name --force  
+aws s3 rb s3://test10062022 --force  
+aws s3 ls s3://test10062022
