@@ -97,3 +97,5 @@ hello-1.0.war  maven-archiver  maven-status
     bucket: test09062022
     object: /home/ubuntu/repos/target/hello-1.0.war
     mode: put
+
+aws s3 rb s3://bucket-name --force  
