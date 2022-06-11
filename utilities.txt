@@ -105,3 +105,5 @@ delegate_to: "{{ ec2_instance_ip }}"
 sudo apt-get -y install python3-pip
 
 aws_s3 put Failed to import the required Python library (botocore or boto3)
+
+"msg": "Bucket already exists."
