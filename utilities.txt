@@ -101,3 +101,5 @@ hello-1.0.war  maven-archiver  maven-status
 aws s3 rb s3://test10062022 --force  
 aws s3 ls s3://test10062022
 delegate_to: "{{ ec2_instance_ip }}"
+
+aws_s3 put Failed to import the required Python library (botocore or boto3)
