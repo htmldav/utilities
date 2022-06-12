@@ -111,3 +111,7 @@ aws_s3 put Failed to import the required Python library (botocore or boto3)
 [webservers:children]
 web_dev
 web_prod
+
+http://44.206.243.206:8080/
+
+http://ec2-44-206-243-206.compute-1.amazonaws.com:8080/
