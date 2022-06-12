@@ -115,3 +115,5 @@ web_prod
 http://44.206.243.206:8080/
 
 http://ec2-44-206-243-206.compute-1.amazonaws.com:8080/
+
+curl http://localhost:8080/
