@@ -112,8 +112,9 @@ aws_s3 put Failed to import the required Python library (botocore or boto3)
 web_dev
 web_prod
 
-http://44.206.243.206:8080/
+http://54.89.235.247:8080/
 
 http://ec2-44-206-243-206.compute-1.amazonaws.com:8080/
 
 curl http://localhost:8080/hello-1.0/
+curl http://54.89.235.247:8080/hello-1.0/
