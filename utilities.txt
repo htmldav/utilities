@@ -145,4 +145,4 @@ apt install docker.io
   310  mc --version
   311  clear
   312  terraform init
-  313  mc
+  313  terraform plan
