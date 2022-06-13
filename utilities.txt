@@ -120,3 +120,29 @@ curl http://localhost:8080/hello-1.0/
 curl http://54.89.235.247:8080/hello-1.0/
 
 apt install docker.io
+
+289  cd ..
+  290  ls -a
+  291  cd alex/
+  292  ls -a
+  293  cd Downloads/
+  294  ls -a
+  295  apt install unzip
+  296  unzip terraform_1.2.2_linux_amd64.zip 
+  297  ls -a
+  298  cp terraform /bin
+  299  chmod +x /bin/terraform 
+  300  terraform --version
+  301  cd ..
+  302  mkdir t1
+  303  cd t1
+  304  cd ..
+  305  rmdir t1/
+  306  ls -a
+  307  cd t1/
+  308  docker --version
+  309  nano config.tf 
+  310  mc --version
+  311  clear
+  312  terraform init
+  313  mc
