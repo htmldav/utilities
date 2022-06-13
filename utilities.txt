@@ -118,3 +118,5 @@ http://ec2-44-206-243-206.compute-1.amazonaws.com:8080/
 
 curl http://localhost:8080/hello-1.0/
 curl http://54.89.235.247:8080/hello-1.0/
+
+apt install docker.io
