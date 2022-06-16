@@ -153,4 +153,5 @@ sudo apt-get update && sudo apt-get install terraform
 
 git config --global user.name 
 git config --global user.email 
+git config --global credential.helper cache
 
